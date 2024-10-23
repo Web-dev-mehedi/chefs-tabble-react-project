@@ -1,0 +1,93 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co.com/4PyChmG/leanna-myers-0-Pr5-Ye-RW3-Z4-unsplash.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Grilled Chicken Salad",
+      "short_description": "A healthy and delicious grilled chicken salad with fresh vegetables.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml olive oil",
+        "200 g mixed greens",
+        "100 g cherry tomatoes",
+        "50 g feta cheese"
+      ],
+      "preparing_time": "30 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/88Sx3PH/charlotte-karlsen-DAih2b5-MFc-A-unsplash.jpg",
+      "recipe_id": 2,
+      "recipe_name": "Vegan Buddha Bowl",
+      "short_description": "A nutritious bowl packed with quinoa, vegetables, and hummus.",
+      "ingredients": [
+        "200 g quinoa",
+        "150 g chickpeas",
+        "200 g roasted vegetables",
+        "50 g avocado",
+        "30 g hummus"
+      ],
+      "preparing_time": "40 min",
+      "calories": "400 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/1ZkYVxf/rob-wicks-f-DLBn8-X-Il-U-unsplash.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Pasta Carbonara",
+      "short_description": "A classic Italian pasta dish with a creamy sauce and pancetta.",
+      "ingredients": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 eggs",
+        "50 g parmesan cheese",
+        "1 clove garlic"
+      ],
+      "preparing_time": "25 min",
+      "calories": "600 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/qDYhZ0K/jade-wulfraat-Wo-JUa-Wp7-Dg-unsplash.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Chocolate Chip Cookies",
+      "short_description": "Delicious homemade chocolate chip cookies with a crispy edge and chewy center.",
+      "ingredients": [
+        "200 g flour",
+        "100 g sugar",
+        "100 g butter",
+        "100 g chocolate chips",
+        "1 egg"
+      ],
+      "preparing_time": "20 min",
+      "calories": "250 calories per cookie"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/d4N5SYd/wesual-click-HK4n3-W95-F2c-unsplash.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Avocado Toast",
+      "short_description": "A simple and tasty avocado toast, perfect for breakfast or a snack.",
+      "ingredients": [
+        "2 slices of bread",
+        "1 avocado",
+        "10 ml lemon juice",
+        "Salt to taste",
+        "Pepper to taste"
+      ],
+      "preparing_time": "10 min",
+      "calories": "200 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/5872HT9/amin-ramezani-Pipzr-GSil-c-unsplash.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Beef Stir Fry",
+      "short_description": "A quick and easy beef stir fry with vegetables in a savory sauce.",
+      "ingredients": [
+        "300 g beef",
+        "200 g bell peppers",
+        "100 g broccoli",
+        "50 ml soy sauce",
+        "1 clove garlic"
+      ],
+      "preparing_time": "20 min",
+      "calories": "400 calories"
+    }
+  ]
+  
