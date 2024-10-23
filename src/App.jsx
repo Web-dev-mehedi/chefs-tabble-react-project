@@ -8,12 +8,15 @@ import { useState } from 'react';
 function App() {
   
 // 
- const [toCook, setToCook]= useState(0)
- console.log(toCook)
+ const [toCook, setToCook]= useState(0);
+ const [toCookItem, setToCookItem] =useState([]);
+ console.log(toCookItem)
 
- const handleClick = () =>{
+ const handleClick = (cardObj) =>{
      setToCook(toCook+1)
- 
+     const newToCookItem = [...toCookItem,cardObj]
+    setToCookItem(newToCookItem)
+    
  }
 
 
@@ -32,7 +35,7 @@ function App() {
           <Recipes handleClick = {handleClick}></Recipes>
          
           {/* sidebar */}
-         <Sidebar toCook={toCook}></Sidebar>
+         <Sidebar toCookItem={toCookItem} toCook={toCook}></Sidebar>
        </section>
     </>
   )

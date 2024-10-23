@@ -6,7 +6,7 @@ import Recipe from './Recipe';
 const Recipes = ({handleClick}) => {
 
       const [recipes, setRecipes] = useState([])
-      console.log(recipes)
+    //   console.log(recipes)
 
       useEffect(()=>{
             fetch('recipes.json')

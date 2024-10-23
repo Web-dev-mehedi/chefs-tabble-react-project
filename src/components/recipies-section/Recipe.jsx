@@ -38,7 +38,7 @@ const Recipe = ({card,handleClick}) => {
                         </div>
                         {/* button */}
                       <div className="card-actions">
-                       <button onClick={handleClick} className="btn bg-[#0BE58A] rounded-full px-8 text-lg">Want to Cook</button>
+                       <button onClick={()=>handleClick(card)} className="btn bg-[#0BE58A] rounded-full px-8 text-lg">Want to Cook</button>
                      </div>
                 </div>
             </div>
