@@ -11,8 +11,8 @@
         "100 g cherry tomatoes",
         "50 g feta cheese"
       ],
-      "preparing_time": "30 min",
-      "calories": "350 calories"
+      "preparing_time": 30,
+      "calories": 350
     },
     {
       "recipe_image": "https://i.ibb.co.com/88Sx3PH/charlotte-karlsen-DAih2b5-MFc-A-unsplash.jpg",
@@ -26,8 +26,8 @@
         "50 g avocado",
         "30 g hummus"
       ],
-      "preparing_time": "40 min",
-      "calories": "400 calories"
+      "preparing_time": 40,
+      "calories": 400
     },
     {
       "recipe_image": "https://i.ibb.co.com/1ZkYVxf/rob-wicks-f-DLBn8-X-Il-U-unsplash.jpg",
@@ -41,8 +41,8 @@
         "50 g parmesan cheese",
         "1 clove garlic"
       ],
-      "preparing_time": "25 min",
-      "calories": "600 calories"
+      "preparing_time": 25,
+      "calories": 600
     },
     {
       "recipe_image": "https://i.ibb.co.com/qDYhZ0K/jade-wulfraat-Wo-JUa-Wp7-Dg-unsplash.jpg",
@@ -56,8 +56,8 @@
         "100 g chocolate chips",
         "1 egg"
       ],
-      "preparing_time": "20 min",
-      "calories": "250 calories per cookie"
+      "preparing_time": 20,
+      "calories": 250
     },
     {
       "recipe_image": "https://i.ibb.co.com/d4N5SYd/wesual-click-HK4n3-W95-F2c-unsplash.jpg",
@@ -71,8 +71,8 @@
         "Salt to taste",
         "Pepper to taste"
       ],
-      "preparing_time": "10 min",
-      "calories": "200 calories"
+      "preparing_time": 10,
+      "calories": 200
     },
     {
       "recipe_image": "https://i.ibb.co.com/5872HT9/amin-ramezani-Pipzr-GSil-c-unsplash.jpg",
@@ -86,8 +86,8 @@
         "50 ml soy sauce",
         "1 clove garlic"
       ],
-      "preparing_time": "20 min",
-      "calories": "400 calories"
+      "preparing_time": 20,
+      "calories": 400
     }
   ]
   

@@ -3,7 +3,7 @@ import { AiOutlineFire } from "react-icons/ai";
 import PropTypes from 'prop-types';
 
 const Recipe = ({card,handleClick}) => {
-    const {recipe_image,recipe_name,short_description,ingredients,preparing_time,calories}= card;
+    const {recipe_image,recipe_name,short_description,ingredients,preparing_time,calories,recipe_id}= card;
     
     return (
             <div>
@@ -33,8 +33,8 @@ const Recipe = ({card,handleClick}) => {
                      </div>
                      {/* time and calories  */}
                         <div className='fira-font text-sm font-normal text-[#282828CC] flex gap-7 justify-start items-center'>
-                            <span className="flex gap-2 justify-start items-center"><IoMdTime /> {preparing_time}</span> 
-                            <span className="flex gap-1 justify-start items-center"><AiOutlineFire />{calories}</span>
+                            <span className="flex gap-2 justify-start items-center"><IoMdTime /> {preparing_time} minutes</span> 
+                            <span className="flex gap-1 justify-start items-center"><AiOutlineFire />{calories} calories</span>
                         </div>
                         {/* button */}
                       <div className="card-actions">

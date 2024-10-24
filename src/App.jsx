@@ -5,21 +5,57 @@ import OurRecipes from './components/our-recipes/OurRecipes';
 import Recipes from './components/recipies-section/Recipes';
 import Sidebar from './components/sidebar/Sidebar';
 import { useState } from 'react';
+
 function App() {
   
 // 
  const [toCook, setToCook]= useState(0);
  const [toCookItem, setToCookItem] =useState([]);
- console.log(toCookItem)
+//  
+//  const [singleitem, setSingleItem] = useState(1)
+//   console.log(singleitem)
 
  const handleClick = (cardObj) =>{
      setToCook(toCook+1)
      const newToCookItem = [...toCookItem,cardObj]
-    setToCookItem(newToCookItem)
+    
+      const isExist =  toCookItem.find( 
+        previous =>previous.recipe_id === cardObj.recipe_id )
+        console.log(isExist)
+       if(!isExist){
+        setToCookItem(newToCookItem)
+       }else{
+       return
+      
+       }
+
+
+       document.getElementById('invisible').classList.remove('hidden')
+      //  singleItemIndex()
+    // 
+    // newToCookItem.filter( (item) => (item.recipe_id === id)?singleItemIndex(): "")
     
  }
 
 
+
+    // const [storeObj, setStoreObj] = useState(0);
+
+
+
+
+
+
+
+
+
+
+
+// 
+
+//  const singleItemIndex=()=>{
+//   setSingleItem(singleitem + 1)
+//  }
 
   return (
     <>
@@ -35,7 +71,7 @@ function App() {
           <Recipes handleClick = {handleClick}></Recipes>
          
           {/* sidebar */}
-         <Sidebar toCookItem={toCookItem} toCook={toCook}></Sidebar>
+         <Sidebar  toCookItem={toCookItem} toCook={toCook}></Sidebar>
        </section>
     </>
   )
